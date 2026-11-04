@@ -31,3 +31,9 @@ The 2026 dataset includes pass scores, study mode, language, branch, and base co
 - No `.env` file or server-side credential is required or shipped.
 - `vercel.json` configures a Content Security Policy and common browser security headers.
 - Public JSON data and browser requests are visible to visitors; the frontend does not rely on hiding URLs for access control.
+
+## Search indexing
+
+The production build creates route-specific HTML metadata for the 2026 scores, score calculator, and subject catalog pages. `public/robots.txt` and `public/sitemap.xml` help search engines discover the canonical pages. After connecting the domain, verify `mandat.meroj.uz` in Google Search Console and submit `https://mandat.meroj.uz/sitemap.xml` for indexing.
+
+Project author: Rakhmatullo Shermatov.

@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mandat.meroj.uz/sitemap.xml
+
